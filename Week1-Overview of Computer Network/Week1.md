@@ -1,8 +1,4 @@
----
-title: Week1
-date: 2023-01-25T01:48:01Z
-lastmod: 2023-01-25T02:26:07Z
----
+
 
 # Week1
 
@@ -52,27 +48,37 @@ These networked devices use a system of rules, called  communications protocols,
 
 ## (1)Network interface card(NIC)网卡
 
-NIC is a device that helps the computer to communicate with another device. The network interface card contains the hardware addresses, the data-link layer protocol use this address to identify the system on the network so that it transfers the data to the correct destination.网卡包含该硬件地址，数据链路层协议使用该地址识别网络上的系统
+NIC is a device that helps the computer to communicate with another device. The network interface card contains the hardware addresses, the data-link layer protocol use this address to identify the system on the network so that it transfers the data to the correct destination.
+
+网卡包含该硬件地址，数据链路层协议使用该地址识别网络上的系统
 
 There are two types of NIC: wireless NIC and wired NIC.
 
-Wireless NIC: All the modern laptops use the wireless NIC. In Wireless NIC, a connection is made using the antenna that employs the radio wave technology.无线网卡 无线电波技术
+Wireless NIC: All the modern laptops use the wireless NIC. In Wireless NIC, a connection is made using the antenna that employs the radio wave technology.
+
+无线网卡 无线电波技术
 
 Wired NIC: Cables use the wired NIC to transfer the data over the medium 有线网卡 电缆在介质上传数据
 
+‍
+
 ## (2)Hub 集线器
 
-Hub is a central device that splits the network connection into multiple devices. When computer requests for information from a computer, it sends the request to the Hub. Hub distributes this request to all the interconnected computers 将网络连接分成多个设备，集线器会获取计算机请求，并将该请求发送给所有相互连接的计算机
+Hub is a central device that splits the network connection into multiple devices. When computer requests for information from a computer, it sends the request to the Hub. Hub distributes this request to all the interconnected computers ​
+
+将网络连接分成多个设备，集线器会获取计算机请求，并将该请求发送给所有相互连接的计算机
 
 ## (3)Switches 交换机
 
-Switch is a networking device that groups all the devices over the network to transfer the data to another device. A switch is better than Hub as it does not broadcast the message over the network, i.e., it sends  the message to the device for which it belongs to. Therefore, we can say that switch sends the message  directly from source to the destination.通过网络将所有设备进行分组，将数据传输到另一个设备。交换机不会像集线器一样通过网络广播信息，而是将信息直接发送到相应设备。
+Switch is a networking device that groups all the devices over the network to transfer the data to another device. A switch is better than Hub as it does not broadcast the message over the network, i.e., it sends  the message to the device for which it belongs to. Therefore, we can say that switch sends the message  directly from source to the destination.
+
+通过网络将所有设备进行分组，将数据传输到另一个设备。交换机不会像集线器一样通过网络广播信息，而是将信息直接发送到相应设备。
 
 ## (4)Cable 电缆
 
 Cable is a transmission media that transmits the communication signals
 
-**双绞线** Twisted pair cable: It is a high-speed cable that transmits the data over 1Gbps or more.速度可达 1Gbps
+**双绞线**​ Twisted pair cable: It is a high-speed cable that transmits the data over 1Gbps or more.速度可达 1Gbps
 
 ![image](assets/image-20230125020031-jneroxs.png)**同轴电缆 Coaxial cable**: Coaxial cable resembles like a TV installation cable. Coaxial cable is more expensive than twisted pair cable, but it provides the high data transmission speed
 
@@ -80,7 +86,9 @@ Cable is a transmission media that transmits the communication signals
 
 ![Coaxial cable ](assets/Coaxial cable -20230125020625-2zbz9do.png)
 
-**光纤电缆 Fibre optic cable**: Fibre optic cable is a high-speed cable that transmits the data using light beams. It provides high data transmission speed as compared to other cables. It is more expensive as compared to other cables, so it is installed at the government level.是一种利用光传输的电缆，具有较高的传输速度，成本较高，在政府级别安装
+**光纤电缆 Fibre optic cable**: Fibre optic cable is a high-speed cable that transmits the data using light beams. It provides high data transmission speed as compared to other cables. It is more expensive as compared to other cables, so it is installed at the government level.
+
+是一种利用光传输的电缆，具有较高的传输速度，成本较高，在政府级别安装
 
 ![image](assets/image-20230125020656-q3dv6ph.png)
 
@@ -92,9 +100,10 @@ There are numerous connectors which include:
 
 1. Barrel connectors:used to connect coaxial cables. Also barrel connectors that are used to connect STP or  UTP cables are known as Ethernet LAN jointers or couplers.
 
-   用于连接同轴电缆。连接 STP 或 UTP 电缆的桶状连接器也被称为以太网 LAN 接头或耦合器。
-2. RJ-11 Connectors: have the capacity for six small pins but in most cases, only two pins eg a standard  telephone connection or four pins ( a DSL modem connection) are used.  有六个小针脚，在大多数情况下只是用两个针脚
-3. Universal serial bus (USB) connectors: They are the most popular and support 127 devices in the series.  Most devices connected to the system have USB ports eg printers, keyboards, 					mobile phones, etcUSB 连接器应用最广，支持 127 个设备。大多数连接的设备都有 USB 端口
+    用于连接同轴电缆。连接 STP 或 UTP 电缆的桶状连接器也被称为以太网 LAN 接头或耦合器。
+2. RJ-11 Connectors: have the capacity for six small pins but in most cases, only two pins eg a standard  telephone connection or four pins ( a DSL modem connection) are used.  ​
+3. 有六个小针脚，在大多数情况下只是用两个针脚
+4. Universal serial bus (USB) connectors: They are the most popular and support 127 devices in the series.  Most devices connected to the system have USB ports eg printers, keyboards, mobile phones, etcUSB 连接器应用最广，支持 127 个设备。大多数连接的设备都有 USB 端口
 
 ## (5)Modem
 
@@ -126,7 +135,7 @@ When the volume of traffic is greater than what can be transported across the ne
 
 ## (4)Security
 
- Securing a network infrastructure includes the physical securing of devices that provide network connectivity, and preventing unauthorized access to the management software that resides on them.
+​ Securing a network infrastructure includes the physical securing of devices that provide network connectivity, and preventing unauthorized access to the management software that resides on them.
 
 # 6、Network Infrastructure devices and their Icons
 
@@ -136,7 +145,7 @@ When the volume of traffic is greater than what can be transported across the ne
 
 ## (1)Client Operating System (OS)
 
-This type works within computer desktops and other portable devices such as laptops and smartphones.  Operating systems that are installed on the client’s computer device like PC, Laptop are called client OS.  		Examples are Windows, Mac
+This type works within computer desktops and other portable devices such as laptops and smartphones.  Operating systems that are installed on the client’s computer device like PC, Laptop are called client OS.  Examples are Windows, Mac
 
 Other Features:
 
@@ -166,3 +175,5 @@ The responsibilities of a network Engineer include the following;
 * Work within established configuration and change management policies to ensure awareness, approval and success of changes made to the network infrastructure.
 * Select and implement security tools, policies, and procedures in conjunction with the  company’s security team.
 * Liaise with vendors and other IT personnel for problem resolution
+
+‍
