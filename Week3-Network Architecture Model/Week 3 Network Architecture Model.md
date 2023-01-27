@@ -202,7 +202,7 @@ Can provide three different methods of communication between devices:
 
 * Provides character code conversion, data compression, and data encryption/decryption.
 
-  提供字符码转换、数据压缩和加解密功能
+  提供字符码转换、数据压缩和加解密等功能
 
 * Example: Google Chrome HTML converted to ASCII Format.
 
