@@ -1,8 +1,4 @@
----
-title: Week 3: Network Architecture Model
-date: 2023-01-26T19:22:23Z
-lastmod: 2023-01-27T14:16:09Z
----
+
 
 # Week 3: Network Architecture Model
 
