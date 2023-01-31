@@ -241,7 +241,6 @@ Prefix is always set to 111 110. L bit is set to 1 if the address is locally ass
 ![image](assets/image-20230130102428-dujx6k6.png)
 
 # Special Addresses
-
 * Like IPv4, IPv6 has some special address spaces that are reserved
 
   ​![image](assets/image-20230130103626-o4ndqcj.png)​
